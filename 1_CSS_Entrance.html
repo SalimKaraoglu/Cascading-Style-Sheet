@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    /*
+    Sitenin tamamında geçerli olacak bir stiliniz varsa örneğin ; yada boyutu, arka plan rengi yada Fotoğraf vb. Bunu body css elementi içerisinde yazabilirsiniz.
+    */
+    body
+    {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 8.25pt;
+        background-color: #e9ece5;
+        background-image: url('https://media.istockphoto.com/id/1297349747/tr/foto%C4%9Fraf/t%C3%BCrkiyede-botan-kanyonu-%C3%BCzerinde-u%C3%A7an-s%C4%B1cak-hava-balonlar%C4%B1.jpg?s=612x612&w=0&k=20&c=cB1OwAy1ndPfcjp_Mt7n0rLub2hiSzgMj-qBXHSrprU=');
+        /*Backgraund-repeat : repeat-y repeat-x;*/
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    #maincontainer
+    {
+        margin-top: 50px;
+        width: 1080px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #banner
+    {
+        border-radius: 10px 10px 0 0; /*Çerçevenin üst kenarını yumuşatır*/
+        width: 1080px;
+        height: 120px;
+        background-color: #FF4136;
+    }
+    #icerik
+    {
+        width: 580px;
+        height: 630px;
+        background-color: #85144b;
+        float: left;  /*Sola Yaslamak için veriyoruz*/
+    }
+    #footer
+    {
+        width: 1080px;
+        height: 100px;
+        background-color: #F012BE;
+        float: left;
+        border-radius: 0 0 10px 10px;
+    }
+    .menu
+    {
+        width: 250px;
+        height: 630px;
+        background-color: #FF851B;
+        float: left;
+    }
+    h1
+    {
+        text-align: center;
+        color: white;
+        line-height: 120px;
+    }
+    p
+    {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        line-height: 630px;
+    }
+    /*footer için ayrı bir css yazmam gerekiyo*/
+    /*Özeldeli CSS Geneldekini EZER!!!*/
+    #footer p
+    {
+        line-height: 60px;
+    }
+  
+
+</style>
+</head>
+
+<body>
+<div id="maincontainer">
+    <div id="banner">
+        <h1>Merhaba Dünya</h1>
+    </div>
+    <div class="menu">
+        <p>Merhaba Dünya</p>
+    </div>
+    <div id="icerik">
+        <p>Merhaba Dünya</p>
+    </div>
+    <div class="menu">
+        <p>Merhaba Dünya</p>
+    </div>
+    <div id="footer">
+        <p>Merhaba Dünya</p>
+    </div>
+</div>
+</body>
+</html>

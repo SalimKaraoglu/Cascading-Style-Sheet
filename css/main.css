@@ -1,0 +1,54 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8.25pt;
+    background-color: #e9ece5;
+    background-image: url('https://media.istockphoto.com/id/1297349747/tr/foto%C4%9Fraf/t%C3%BCrkiyede-botan-kanyonu-%C3%BCzerinde-u%C3%A7an-s%C4%B1cak-hava-balonlar%C4%B1.jpg?s=612x612&w=0&k=20&c=cB1OwAy1ndPfcjp_Mt7n0rLub2hiSzgMj-qBXHSrprU=');
+    /*Backgraund-repeat : repeat-y repeat-x;*/
+    background-attachment: fixed;
+    background-size: cover;
+}
+p
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9pt;
+    font-weight: bold;
+}
+.box
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: 3px solid #abcdef;
+    float: left;
+    background-color: blue;
+    margin-left: 5px;
+}
+.box p  
+{
+    color: yellow;
+    font-size: italic;
+    margin-left: 6px;
+}
+.box p a 
+{
+    color: white;
+    text-decoration: underline;
+    font-style: normal;
+}
+.box p a:hover
+{
+    font-style: italic;
+    font-size: 10pt;
+}
+.box:hover
+{
+    width: 120px;
+    height: 120px;
+    background-image:url(https://images.pexels.com/photos/1172064/pexels-photo-1172064.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.box .lightbox p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
